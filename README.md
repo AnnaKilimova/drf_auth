@@ -51,6 +51,7 @@ Available routes:
 - [/token/](http://127.0.0.1:8000/token/) — Obtaining access + refresh tokens
 - [/token/refresh/](http://127.0.0.1:8000/token/refresh/) — Updating the access token
 - [/protected/](http://127.0.0.1:8000/protected/) — Secure endpoint (access token required)
+
 Stop the server:
 ```bash
 ^C

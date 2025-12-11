@@ -48,9 +48,9 @@ The project will be available at:
 ```
 Available routes:
 - [/admin/](http://127.0.0.1:8000/admin/) — Django admin panel
-- [/courses/](http://127.0.0.1:8000/token/) — Obtaining access + refresh tokens
-- [/courses/create/](http://127.0.0.1:8000/token/refresh/) — Updating the access token
-- [/courses/2/](http://127.0.0.1:8000/protected/) — Secure endpoint (access token required)
+- [/token/](http://127.0.0.1:8000/token/) — Obtaining access + refresh tokens
+- [/token/refresh/](http://127.0.0.1:8000/token/refresh/) — Updating the access token
+- [/protected/](http://127.0.0.1:8000/protected/) — Secure endpoint (access token required)
 Stop the server:
 ```bash
 ^C
